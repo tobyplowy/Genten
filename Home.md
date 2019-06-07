@@ -4,7 +4,7 @@
 This needs to be written :(
 
 ## Important links
-- Development
+- [Development](https://github.com/GentenStudios/Genten/wiki/Development-Home)
 
 ## Projects
 - Quartz Engine
