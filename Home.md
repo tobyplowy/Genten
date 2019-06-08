@@ -5,7 +5,7 @@ Genten is a team of people who strive to make high quality open source projects 
 We are also the creators and main developers of the [Quartz Engine](https://github.com/GentenStudios/quartz-engine).
 
 ## Important links
-- [Development](https://github.com/GentenStudios/Genten/wiki/Development-Home)
+- [Development](https://github.com/GentenStudios/Genten/wiki/Dev:-Home)
 
 ## Projects
 - Quartz Engine
