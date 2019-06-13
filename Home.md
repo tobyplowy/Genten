@@ -9,5 +9,5 @@ We are currently the active maintainers of the [Quartz Engine](https://github.co
 - [Development](https://github.com/GentenStudios/Genten/wiki/Dev:-Home)
 
 ## Projects
-- Quartz Engine
+- [Quartz Engine](https://github.com/GentenStudios/quartz-engine/wiki)
 - Project Phoenix
