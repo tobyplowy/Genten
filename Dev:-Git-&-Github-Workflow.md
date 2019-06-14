@@ -2,7 +2,7 @@
 ## GIT FLOW
 On GitHub, we use a practice commonly known as Git-Flow. You can read about the process in depth on [Vincent Driessen's Guide](https://nvie.com/posts/a-successful-git-branching-model/), off of which we base our current standards. If at any point that guide conflicts with what is written here, the methods & instructions specified here should be used.
 
-Familiarity with git, specifically with using branches, is a must for interacting with GentenStudios’s repositories and is a prerequisite for learning the Git-Flow process.
+Familiarity with git, specifically with using branches, is a must for interacting with GentenStudios repositories and is a prerequisite for learning the Git-Flow process.
 
 Git-Flow is based on separating the project into categories of branches as follows: master, release, development, feature branches, and hotfixes.
 
