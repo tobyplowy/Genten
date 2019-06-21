@@ -14,20 +14,23 @@ For example, this type of convention must be followed:
 `CLASSES`
 Classes must also follow the PascalCase convention, this means it is much easier to identify a class from something else. For example:
 
-```class FooBar
+```cpp
+class FooBar
 class Caterpillar
 ```
 ### FUNCTIONS
 Functions should follow the camelCase convention, where the first word has a lowercase first letter, but all consequent words start with a capital letter, like so:
 
-```int doSomething();
+```cpp
+int doSomething();
 int goddIsTodd();
 int urNansWheelieBin(); 
 ```
 ### VARIABLES
 There are a few things to know about naming variables. Most all variables must follow the camelCase convention, however, private member variables of a class must use an “m_” prefix before them. However, constants and macros should be ALL_CAPITALS_USING_UNDERSCORES_INSTEAD_OF_SPACES. Hopefully that makes sense, if not, here’s an example to make things make sense:
 
-```const int THIS_IS_A_CONSTANT = 10;
+```cpp
+const int THIS_IS_A_CONSTANT = 10;
 int g_globalVariableForFooQuality = 5; // Global variable, uses the g_ prefix
 
 class FooBar
@@ -46,12 +49,12 @@ Namespaces must start with lowercase characters, however, whenever creating anot
 ## COMMENTING
 For any comment that requires only a single line, use the // method of commenting. Always make sure the // has a space before the actual comment. This is for easier readability, and no sudden fear to visit the opticians because we just became blind old grannies. For example:
 
-```
+```cpp
 // This is a single line comment
 int bar();
 ```
 Multiline comments should use the /* */ method of commenting, where the /* and */ are on their own lines. Each line in between should house an asterisk, please ensure there is a space before following comment. For example:
-```
+```cpp
 /*
  * This is a multiline comment
  * As in a comment with multiple lines.
@@ -59,7 +62,7 @@ Multiline comments should use the /* */ method of commenting, where the /* and *
  */
 ```
 When documenting classes, methods and similar we follow the Doxygen Javadoc syntax. For example, this convention should be followed:
-```
+```cpp
 /**
  * @brief This class is for documentation reasons. 
  */
