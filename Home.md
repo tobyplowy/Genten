@@ -6,7 +6,7 @@ Genten Studios consists of a team of people striving to create open source proje
 We are currently the active maintainers of the [Quartz Engine](https://github.com/GentenStudios/quartz-engine).
 
 ## Important links
-- [Development](https://github.com/GentenStudios/quartz-engine)
+- [Development](https://github.com/GentenStudios/Genten/wiki/Dev:-Home)
 
 ## Our Projects
 - [Quartz Engine](https://github.com/GentenStudios/quartz-engine)
