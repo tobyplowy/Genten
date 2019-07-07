@@ -2,7 +2,7 @@
 
 We want our code to look professional and top quality, as well as being fast and functional. This requires us to place some standards we would like followed. It would be greatly appreciated to have well-formatted code following our standards in PRs.
 ## NAMING
-Good code needs to a standard naming convention, not just from files, but to classes, and variables, and many more things.
+Good code needs to conform to a standard naming convention, not just from files, but to classes, and variables, and many more things.
 ### FILE NAMING
 All files must follow Pascal Case, where each “word” in the file name has a capital on its first letter and no spaces. All C++ files must use either “.cpp” or “.hpp”, respective for whether they are source or header files.
 For example, this type of convention must be followed:
