@@ -1,33 +1,38 @@
 # C++ CODING STANDARDS
 
-We want our code to look professional and top quality, as well as being fast and functional. This requires us to place some standards we would like followed. It would be greatly appreciated to have well-formatted code following our standards in PRs.
+Our ethos consists of the idea that we're writing code for other people. This means we want our code to look tidy, professional, and function; to achieve this, we've had to implement some standards - which we could greatly appreciate a following to when submitting Pull Requests and the likes.
+
 ## NAMING
-Good code needs to conform to a standard naming convention, not just from files, but to classes, and variables, and many more things.
+Consistency is key - the key to easy, readable code - especially since our code is not only for us. Naming consistency will help identify different types of variables, constants, files, methods, and more. Consistency - however - is not the final stop... Something needs to be named as per it's functionality or it's use; it should be self-explanatory, you shouldn't have to ask to understand what it is.
+
 ### FILE NAMING
-All files must follow Pascal Case, where each “word” in the file name has a capital on its first letter and no spaces. All C++ files must use either “.cpp” or “.hpp”, respective for whether they are source or header files.
+All files must follow the `PascalCase` convention, where each “word” in the file name has a capital on its first letter and no spaces. All C++ files must use either `.cpp` or `.hpp` for source and header files respectively.
 For example, this type of convention must be followed:
 
-`PascalCaseFileName.hpp`
-`PascalCaseFileName.cpp`
-`IWindow.hpp`
-`IWindow.cpp`
-`CLASSES`
-Classes must also follow the PascalCase convention, this means it is much easier to identify a class from something else. For example:
+```
+PascalCaseFileName.hpp
+PascalCaseFileName.cpp
+IWindow.hpp
+IWindow.cpp
+```
+
+### CLASSES
+Classes must also follow the `PascalCase` naming convention, to allow for faster reading, and identification of classes within code. For example:
 
 ```cpp
 class FooBar
 class Caterpillar
 ```
 ### FUNCTIONS
-Functions should follow the camelCase convention, where the first word has a lowercase first letter, but all consequent words start with a capital letter, like so:
+Functions should follow the `camelCase` convention, where the first word has a lowercase first letter, but all consequent words start with a capital letter, like so:
 
 ```cpp
 int doSomething();
 int goddIsTodd();
-int urNansWheelieBin(); 
+int wowThisIsACoolFunction(); 
 ```
 ### VARIABLES
-There are a few things to know about naming variables. Most all variables must follow the camelCase convention, however, private member variables of a class must use an “m_” prefix before them. However, constants and macros should be ALL_CAPITALS_USING_UNDERSCORES_INSTEAD_OF_SPACES. Hopefully that makes sense, if not, here’s an example to make things make sense:
+There are a few things to know about naming variables. Most all variables must follow the camelCase convention, however, private member variables of a class must use an `m_` prefix before them. However, constants and macros should be ALL_CAPITALS_USING_UNDERSCORES_INSTEAD_OF_SPACES. Hopefully that makes sense, if not, here’s an example to make things make sense:
 
 ```cpp
 const int THIS_IS_A_CONSTANT = 10;
