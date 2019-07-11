@@ -1,13 +1,11 @@
 # GITHUB GUIDELINES
 ## GIT FLOW
-On GitHub, we use a practice commonly known as Git-Flow. You can read about the process in depth on [Vincent Driessen's Guide](https://nvie.com/posts/a-successful-git-branching-model/), off of which we base our current standards. If at any point that guide conflicts with what is written here, the methods & instructions specified here should be used.
+On GitHub, we use a practice commonly known as Git-Flow. You can read about the process in depth on [Vincent Driessen's Guide](https://nvie.com/posts/a-successful-git-branching-model/), off of which we base our current workflow. If at any point that guide conflicts with what is written here, the methods & instructions specified here should be used.
 
-Familiarity with git, specifically with using branches, is a must for interacting with GentenStudios repositories and is a prerequisite for learning the Git-Flow process.
+Familiarity with Git, specifically with using branches, is a must for interacting with Genten Studios' repositories and is a prerequisite for learning the Git-Flow process. The process is based on separating the project into categories of branches as follows: master, release, development, feature branches, and hotfixes.
 
-Git-Flow is based on separating the project into categories of branches as follows: master, release, development, feature branches, and hotfixes.
-
-**The Master Branch** is the stable source for the code, this contains major/ minor releases and nothing else. Only release and hotfix branches can be pushed here.
-- A 100% Developer & Staff approval is required to push to the master branch. 
+**The Master Branch** is the *most* stable source for the code, this contains major/ minor releases and nothing else. Only release and hotfix branches can be pushed here.
+- All Genten Developers and Staff Members must approve any push to the master branch - unless said otherwise (e.g. last minute hotfixes).
 - The code must be thoroughly tested on all supported systems before being pushed here.
 
 **Hot Fix Branches** are a method for pushing code to the master branch after a release. These should be minor fixes that add no functionality (unless the bug restricts a certain functionality) to the project.
@@ -20,8 +18,8 @@ Git-Flow is based on separating the project into categories of branches as follo
 - It takes a greater than 2/3 developer approval to push to the develop branch.
 - The code must be tested on all supported systems before being pushed here.
 
-**Feature Branches** are where the action happens, each feature branch contains the addition of a single new feature. This is where all main development work happens and it is required to create a feature branch to push code. Any developer can accept code into a feature branch.
-- These branches must follow the naming convention of feat-[feature name] for example feat-blocks
+**Feature Branches** are where the action happens, each feature branch contains the addition of a single new feature. This is where all main development work happens and it is required to create a feature branch to push code. Any Genten developer can accept code into a feature branch.
+- These branches must follow the naming convention of ``feat-[feature name]`` (e.g. ``feat-rendering-api``)
 PULL REQUESTS
 - A pull request from a contributors repository can be approved by a single developer, this code can only be pulled into feature branches and not directly into the development or higher branches.
 MERGE CHECKLIST
