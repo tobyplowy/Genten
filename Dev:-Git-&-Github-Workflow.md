@@ -19,8 +19,9 @@ Familiarity with Git, specifically with using branches, is a must for interactin
 - The code must be tested on all supported systems before being pushed here.
 
 **Feature Branches** are where the action happens, each feature branch contains the addition of a single new feature. This is where all main development work happens and it is required to create a feature branch to push code. Any Genten developer can accept code into a feature branch.
-- These branches must follow the naming convention of ``feat-[Component]-[feature name]`` (e.g. ``feat-rendering-api``)
+- These branches must follow the naming convention of ``feat-[feature name]`` (e.g. ``feat-voxels``)
 PULL REQUESTS
+- Sub branches will generally follow a similar naming convention of ``feat-[feature name]-[subfeature]`` (e.g. ``feat-voxels-blocks``)
 - A pull request from a contributors repository can be approved by a single developer, this code can only be pulled into feature branches and not directly into the development or higher branches.
 MERGE CHECKLIST
 - This section lists the requirements for merging code. All of these requirements must be satisfied before code is merged into any branch.
