@@ -22,7 +22,7 @@ Familiarity with Git, specifically with using branches, is a must for interactin
 - These branches must follow the naming convention of ``feat-[feature name]`` (e.g. ``feat-voxels``)
 - Sub branches will generally follow a similar naming convention of ``feat-[feature name]-[subfeature]`` (e.g. ``feat-voxels-blocks``)
 
-## PULL REQUESTS
+## Pull Requests
 - A pull request from a contributors repository can be approved by a single developer, this code can only be pulled into feature branches and not directly into the development or higher branches.
 
 ## PR checklist
