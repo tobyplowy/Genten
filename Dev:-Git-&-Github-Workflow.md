@@ -25,18 +25,18 @@ PULL REQUESTS
 MERGE CHECKLIST
 - This section lists the requirements for merging code. All of these requirements must be satisfied before code is merged into any branch.
 
-All Branches
+## PR checklist
+All Branches:
 - Accomplish the feature(s) it was designed to accomplish
 - Has the branch it's merging into merged onto itself and all conflicts are resolved
 - Clean of all binaries and other non-source material
 - Code is documented
 - Complies with style guide
 - All Developer reviewer comments are resolved
+- Code is formatted with cLang
 
-Into Development branch
-- Compiles properly on all supported systems*
-
-*Mac not necessary until we get a developer who can test on it regularly
+Development branch:
+- Compiles properly on all supported systems
 
 ## VERSIONING AND RELEASES
 Versioning will follow a standard of MAJOR.MINOR.FIX where Major Releases mark significant points in a product’s lifetime and Minor Releases mark the finalization of significant features. Fixes and non-feature releases are ones that repair issues with code.
